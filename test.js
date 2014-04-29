@@ -10,12 +10,12 @@ function classifier(x) {
 
 describe('iterator-groupby', function(){
   it('works', function(){
-    let n = 50;
+    let n = 10;
     let xs = range(n);
     let grouped = groupby(xs, classifier);
 
-    expect(grouped.even.length).to.be(n / 2);
-    expect(grouped.odd.length).to.be(n / 2);
+    expect(grouped.even).to.eql([0,2,4,6,8])
+    expect(grouped.odd).to.eql([1,3,5,7,9])
   });
 
   it('empty works', function() {
