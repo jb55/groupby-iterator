@@ -1,0 +1,20 @@
+{
+  "name": "iterator-groupby",
+  "description": "groupBy for javascript iterators",
+  "keywords": ["iterator", "groupby", "generators", "generator"],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jb55/iterator-groupby.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony --reporter spec"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "expect.js": "*",
+    "mocha": "*",
+    "range-generator": "^1.0.2"
+  }
+}
