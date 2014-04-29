@@ -1,5 +1,5 @@
 
-# iterator-groupby
+# groupby-iterator
 
   Reduce an iterator to an object grouped on keys, with arrays containing
   grouped values.
@@ -8,7 +8,7 @@
 
   Install with npm
 
-    $ npm install iterator-groupby
+    $ npm install groupby-iterator
 
 ## Example
 
@@ -16,7 +16,7 @@
 'use strict';
 
 let range = require('range-generator');
-let groupBy = require('iterator-groupby');
+let groupBy = require('groupby-iterator');
 
 function classify(x) {
   return x % 2 === 0? 'even' : 'odd';

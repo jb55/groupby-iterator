@@ -1,11 +1,11 @@
 {
-  "name": "iterator-groupby",
+  "name": "groupby-iterator",
   "description": "groupBy for javascript iterators",
   "keywords": ["iterator", "groupby", "generators", "generator"],
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jb55/iterator-groupby.git"
+    "url": "git://github.com/jb55/groupby-iterator.git"
   },
   "main": "index.js",
   "scripts": {
