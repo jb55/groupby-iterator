@@ -4,7 +4,7 @@
   Reduce an iterator to an object grouped on keys, with arrays containing
   grouped values.
 
-  [![Build Status](https://travis-ci.org/jb55/groupby-iterator.png)](https://travis-ci.org/jb55/groupby-iterator)
+  [![Build Status](https://travis-ci.org/jb55/groupby-iterator.svg)](https://travis-ci.org/jb55/groupby-iterator)
 
 ## Installation
 
