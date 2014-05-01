@@ -19,7 +19,7 @@ describe('iterator-groupby', function(){
   });
 
   it('empty works', function() {
-    let n = 1;
+    let n = 0;
     let xs = range(n);
     let grouped = groupby(xs, classifier);
 
